@@ -965,4 +965,39 @@ header nav a {
   font-size: 18px;
   font-weight: 300px;
 }
+
+.row-1 {
+  width: 125em;
+  margin-right: 2em;
+  margin-bottom: 35px;
+}
+
+.row-1 .title-t a {
+  text-decoration: underline;
+}
+
+.row-2 {
+  width: 72em;
+}
+
+.row-2 .images-t {
+  background-image: url("./images/Medical_Home.png");
+  height: 217px;
+  background-size: 100%;
+}
+
+.row-2 .images-t2 {
+  background-image: url("./images/boy_mom_back.jpg");
+  height: 217px;
+  background-size: cover;
+  background-position-y: center;
+}
+
+.dropdown-area {
+  width: 36em;
+}
+
+.gray {
+  background-color: #c4c7ca;
+}
 /*# sourceMappingURL=globalStyle.css.map */

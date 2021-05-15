@@ -627,7 +627,7 @@ header nav a {
 }
 
 .form .s-iocn h6 {
-  font-size: .7em;
+  font-size: 0.7em;
   font-weight: 600;
 }
 
@@ -684,7 +684,7 @@ header nav a {
 }
 
 .catagery .list-alaphabets .colour-less {
-  color: #BABABA;
+  color: #bababa;
   letter-spacing: 2.6em;
 }
 
@@ -700,7 +700,7 @@ header nav a {
   place-self: flex-start;
   font-size: 5em;
   font-weight: 300;
-  color: #C6DCE0;
+  color: #c6dce0;
 }
 
 .catagery .alaphabet .rows .row-1 a:nth-child(1) {
@@ -712,5 +712,57 @@ header nav a {
 .catagery .alaphabet .rows .row-1 a {
   color: #465a98;
   padding-left: 5px;
+}
+
+.table-2 {
+  width: 56em;
+}
+
+.table-2 tr {
+  color: #465a98;
+}
+
+.table-1 {
+  width: 56em;
+}
+
+.table-1 tr {
+  color: #465a98;
+}
+
+.sharable {
+  font-size: 14px;
+}
+
+.sharable .material-icons-round {
+  font-size: 14px;
+}
+
+.table-head {
+  gap: 1em;
+}
+
+.table-head .material-icons-round {
+  place-self: center;
+}
+
+.table-head .drop {
+  width: 125px;
+}
+
+.dull {
+  color: #808080;
+}
+
+.size-14 {
+  font-size: 14px;
+}
+
+.yellow {
+  color: #ffc200;
+}
+
+.blue {
+  color: #465a98;
 }
 /*# sourceMappingURL=globalStyle.css.map */

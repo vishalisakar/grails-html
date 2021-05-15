@@ -427,9 +427,9 @@ header {
 
 .page-two {
   #page-two-divsion-one {
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     background-image: url("./images/youngboy.jpg");
     background-position-y: 50%;
     background-size: cover;
@@ -444,22 +444,22 @@ header {
   }
 }
 
-.page-nine{
+.page-nine {
   display: flex;
   flex-direction: column;
 }
-.ut-service{
+.ut-service {
   gap: 85px;
 }
 
-.title-n{
+.title-n {
   padding-left: 5em;
-  
-  img{
+
+  img {
     width: 100px;
     height: 100px;
   }
-  h4{
+  h4 {
     width: 410px;
     font-size: 36px;
     letter-spacing: 5px;
@@ -469,68 +469,63 @@ header {
   }
 }
 
-.discription-n p{
+.discription-n p {
   width: 756px;
 }
-.form{
+.form {
   background-color: lightyellow;
-    gap: 10px;
-    padding: 25px;
-  .form-fields{
+  gap: 10px;
+  padding: 25px;
+  .form-fields {
     font-weight: 600;
     color: #465a98;
     gap: 35px;
-   
   }
 
-  .s-iocn{
+  .s-iocn {
     align-items: flex-end;
     color: #465a98;
-    .material-icons-round{
-
+    .material-icons-round {
       font-size: 48px;
     }
-    h6{
-      font-size: .7em;
-    font-weight: 600;
+    h6 {
+      font-size: 0.7em;
+      font-weight: 600;
     }
-
   }
-  
 }
 
-.registry{
+.registry {
   justify-content: center;
   padding-right: 2.9em;
-  .r-title{
+  .r-title {
     color: #465a98;
-    .material-icons-round{
+    .material-icons-round {
       font-size: 52px;
     }
-    h5{
+    h5 {
       font-weight: 400;
       font-size: 20px;
-    letter-spacing: 1px;
+      letter-spacing: 1px;
     }
   }
 }
 
-.breadcrumb{
+.breadcrumb {
   background-color: inherit;
 
-  ol li{
+  ol li {
     text-decoration: underline;
   }
 }
 
-
-.catagery{
+.catagery {
   margin-top: 1em;
-   h4{
-     font-weight: 400;
-   }
+  h4 {
+    font-weight: 400;
+  }
 
-   .list-alaphabets{
+  .list-alaphabets {
     background-color: #d5fbde;
     width: 75em;
     height: 1.9em;
@@ -538,46 +533,94 @@ header {
     text-transform: uppercase;
     padding-left: 10px;
     padding-top: 3px;
-    .coloured{
+    .coloured {
       color: #465a98;
       letter-spacing: 2.2em;
     }
 
-    .colour-less{
-      color: #BABABA;
+    .colour-less {
+      color: #bababa;
       letter-spacing: 2.6em;
     }
-   }
+  }
 
-   .alaphabet{
-     
-    hr{
+  .alaphabet {
+    hr {
       border-color: #000000;
     }
-    .rows{
+    .rows {
       gap: 6em;
 
-      .row-title{
+      .row-title {
         place-self: flex-start;
-    font-size: 5em;
-    font-weight: 300;
-    color: #C6DCE0;
+        font-size: 5em;
+        font-weight: 300;
+        color: #c6dce0;
       }
-      
-      .row-1{
-        a:nth-child(1){
+
+      .row-1 {
+        a:nth-child(1) {
           font-weight: 500;
           color: #000000;
           padding: 0;
         }
 
-        a{
+        a {
           color: #465a98;
           padding-left: 5px;
         }
-
-        
       }
     }
-   }
+  }
+}
+
+.table-2{
+  width: 56em;
+  tr {
+    color: #465a98;
+  }
+}
+.table-1 {
+  width: 56em;
+
+  tr {
+    color: #465a98;
+  }
+}
+
+.sharable {
+  font-size: 14px;
+
+  .material-icons-round {
+    font-size: 14px;
+  }
+}
+
+.table-head{
+  gap: 1em;
+
+  .material-icons-round{
+    place-self: center;
+  }
+
+  .drop{
+    width: 125px;
+  }
+}
+
+.dull {
+  color: #808080;
+}
+
+.size-14 {
+  font-size: 14px;
+}
+
+
+.yellow{
+  color: #ffc200;
+}
+
+.blue{
+  color: #465a98;
 }

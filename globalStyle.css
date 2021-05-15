@@ -575,4 +575,142 @@ header nav a {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+
+.ut-service {
+  gap: 85px;
+}
+
+.title-n {
+  padding-left: 5em;
+}
+
+.title-n img {
+  width: 100px;
+  height: 100px;
+}
+
+.title-n h4 {
+  width: 410px;
+  font-size: 36px;
+  letter-spacing: 5px;
+  font-weight: 300;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-bottom: 0;
+}
+
+.discription-n p {
+  width: 756px;
+}
+
+.form {
+  background-color: lightyellow;
+  gap: 10px;
+  padding: 25px;
+}
+
+.form .form-fields {
+  font-weight: 600;
+  color: #465a98;
+  gap: 35px;
+}
+
+.form .s-iocn {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  color: #465a98;
+}
+
+.form .s-iocn .material-icons-round {
+  font-size: 48px;
+}
+
+.form .s-iocn h6 {
+  font-size: .7em;
+  font-weight: 600;
+}
+
+.registry {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-right: 2.9em;
+}
+
+.registry .r-title {
+  color: #465a98;
+}
+
+.registry .r-title .material-icons-round {
+  font-size: 52px;
+}
+
+.registry .r-title h5 {
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.breadcrumb {
+  background-color: inherit;
+}
+
+.breadcrumb ol li {
+  text-decoration: underline;
+}
+
+.catagery {
+  margin-top: 1em;
+}
+
+.catagery h4 {
+  font-weight: 400;
+}
+
+.catagery .list-alaphabets {
+  background-color: #d5fbde;
+  width: 75em;
+  height: 1.9em;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-left: 10px;
+  padding-top: 3px;
+}
+
+.catagery .list-alaphabets .coloured {
+  color: #465a98;
+  letter-spacing: 2.2em;
+}
+
+.catagery .list-alaphabets .colour-less {
+  color: #BABABA;
+  letter-spacing: 2.6em;
+}
+
+.catagery .alaphabet hr {
+  border-color: #000000;
+}
+
+.catagery .alaphabet .rows {
+  gap: 6em;
+}
+
+.catagery .alaphabet .rows .row-title {
+  place-self: flex-start;
+  font-size: 5em;
+  font-weight: 300;
+  color: #C6DCE0;
+}
+
+.catagery .alaphabet .rows .row-1 a:nth-child(1) {
+  font-weight: 500;
+  color: #000000;
+  padding: 0;
+}
+
+.catagery .alaphabet .rows .row-1 a {
+  color: #465a98;
+  padding-left: 5px;
+}
 /*# sourceMappingURL=globalStyle.css.map */

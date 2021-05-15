@@ -99,6 +99,45 @@ header {
     }
   }
 
+  .nav-section {
+    background-color: #425384;
+    display: grid;
+    padding: 0.8em;
+    color: white;
+    grid-template-columns: 1fr 20%;
+    grid-template-rows: 1fr 1fr;
+    line-height: 1px;
+    padding-left: 5em;
+    .nav-header{
+      font-weight: 500;
+      font-size: 16px;
+      display: flex;
+    align-items: center;
+    }
+
+    nav {
+      font-weight: normal;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 0.5em;
+      font-size: 14px;
+    }
+
+    .side-link {
+      display: flex;
+    font-size: 12px;
+    align-items: center;
+    justify-content: flex-end;
+      a {
+        text-decoration: none;
+        color: white;
+        letter-spacing: 2px;
+        // gap: 10px;
+        // border-right: white solid 1em;
+      }
+    }
+  }
+
   nav {
     // background-color: rgb(58, 58, 124);
     background-color: #425384;
@@ -623,4 +662,100 @@ header {
 
 .blue{
   color: #465a98;
+}
+      
+.page-six{
+  #banner {
+    display: flex;
+    align-items: center;
+  background-image: url("./images/boy\ getting\ his\ throat\ examined\ by\ a\ doctor_inside.JPG");
+  background-position-y: 95%;
+  background-size: cover;
+  height: 220px;
+  padding: 1em;
+  p {
+    font-size: 26px;
+    width: 450px;
+    margin-left: 2.5em;
+    font-weight: 100;
+  }
+}
+
+section{
+  padding: 1em;
+  padding-bottom: 0px;
+  display: grid;
+  grid-template-columns: 1fr 35%;
+
+  .list-item{
+    display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  color: #465a98;
+  padding:1em 8em 2em 2.5em;
+  line-height: 2em;
+  font-weight: 400;
+  i {
+    font-weight: 600;
+  }
+  span {
+    display: flex;
+    align-items: center;
+  }
+  .spl {
+    align-items: baseline;
+    i{
+      bottom: -3px;
+    position: relative;
+    }
+  }
+  .division-WOA{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    padding-left: 3em;
+    font-weight: 400;
+
+    &.spl{
+      padding-left: 5em;
+  line-height: 1.5;
+  font-size: 14px;
+    }
+  }
+  .division-WA{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    padding-left: 3em;
+    color: #000;
+    line-height: 1;
+    i{
+      color: #ff6600;
+    }
+  }
+  }
+  .learn-more-about{
+    background-color: #f1efeb;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+    header{
+      align-items: center;
+      display: flex;
+      font-size: 20px;
+      /* padding: 1em; */
+      justify-content: center;
+    }
+    hr{
+      border-color: #000;
+      margin-top:0px;
+    }
+    a{
+      padding-bottom: 1em;
+      color: #0056b3;
+      font-size: 18px;
+      font-weight: 300px;
+    }
+  }
+}
 }

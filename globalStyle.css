@@ -129,6 +129,62 @@ header .main .map .ut {
   font-size: 14px;
 }
 
+header .nav-section {
+  background-color: #425384;
+  display: -ms-grid;
+  display: grid;
+  padding: 0.8em;
+  color: white;
+  -ms-grid-columns: 1fr 20%;
+      grid-template-columns: 1fr 20%;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  line-height: 1px;
+  padding-left: 5em;
+}
+
+header .nav-section .nav-header {
+  font-weight: 500;
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .nav-section nav {
+  font-weight: normal;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.5em;
+  font-size: 14px;
+}
+
+header .nav-section .side-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 12px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+header .nav-section .side-link a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 2px;
+}
+
 header nav {
   background-color: #425384;
   display: -webkit-box;
@@ -764,5 +820,149 @@ header nav a {
 
 .blue {
   color: #465a98;
+}
+
+.page-six #banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("./images/boy getting his throat examined by a doctor_inside.JPG");
+  background-position-y: 95%;
+  background-size: cover;
+  height: 220px;
+  padding: 1em;
+}
+
+.page-six #banner p {
+  font-size: 26px;
+  width: 450px;
+  margin-left: 2.5em;
+  font-weight: 100;
+}
+
+.page-six section {
+  padding: 1em;
+  padding-bottom: 0px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 35%;
+      grid-template-columns: 1fr 35%;
+}
+
+.page-six section .list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 24px;
+  color: #465a98;
+  padding: 1em 8em 2em 2.5em;
+  line-height: 2em;
+  font-weight: 400;
+}
+
+.page-six section .list-item i {
+  font-weight: 600;
+}
+
+.page-six section .list-item span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page-six section .list-item .spl {
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.page-six section .list-item .spl i {
+  bottom: -3px;
+  position: relative;
+}
+
+.page-six section .list-item .division-WOA {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 18px;
+  padding-left: 3em;
+  font-weight: 400;
+}
+
+.page-six section .list-item .division-WOA.spl {
+  padding-left: 5em;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.page-six section .list-item .division-WA {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 14px;
+  padding-left: 3em;
+  color: #000;
+  line-height: 1;
+}
+
+.page-six section .list-item .division-WA i {
+  color: #ff6600;
+}
+
+.page-six section .learn-more-about {
+  background-color: #f1efeb;
+  padding: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.page-six section .learn-more-about header {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+  /* padding: 1em; */
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page-six section .learn-more-about hr {
+  border-color: #000;
+  margin-top: 0px;
+}
+
+.page-six section .learn-more-about a {
+  padding-bottom: 1em;
+  color: #0056b3;
+  font-size: 18px;
+  font-weight: 300px;
 }
 /*# sourceMappingURL=globalStyle.css.map */

@@ -1,0 +1,578 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+header .info {
+  background-color: #ffc200;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 3em;
+  padding: 10px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  text-transform: uppercase;
+  padding-right: 10em;
+}
+
+header .info a {
+  color: black;
+  display: inherit;
+  text-decoration: none;
+  gap: 10px;
+}
+
+header .info a span {
+  font-size: 20px;
+}
+
+header .info a:nth-child(1) {
+  font-weight: 700;
+  color: #465a98;
+}
+
+header .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+header .main .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .main .logo h5 {
+  margin-left: 10px;
+  color: #425384;
+}
+
+header .main .logo img {
+  width: 60px;
+  height: 70px;
+}
+
+header .main .search {
+  width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .main .search input {
+  background-color: aliceblue;
+}
+
+header .main .search span {
+  position: relative;
+  right: 32px;
+  bottom: -9px;
+}
+
+header .main .dropdown button {
+  background-color: aliceblue;
+}
+
+header .main .dropdown .btn:active {
+  background-color: aliceblue;
+  color: inherit;
+  border-color: inherit;
+}
+
+header .main .map {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #425384;
+}
+
+header .main .map .ut {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+header nav {
+  background-color: #425384;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-transform: uppercase;
+  font-weight: 500;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 2.5em;
+  padding: 0.4em;
+  color: white;
+}
+
+header nav a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.footer {
+  background-color: aliceblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-transform: uppercase;
+  padding: 2.5em;
+}
+
+.footer .foo-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 4em;
+}
+
+.footer .foo-one .part-one .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .foo-one .part-one .logo h5 {
+  color: #425384;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-left: 5px;
+}
+
+.footer .foo-one .part-one .logo img {
+  width: 80px;
+  height: 90px;
+}
+
+.footer .foo-one .part-one .links {
+  margin-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 14px;
+}
+
+.footer .foo-one .part-one .links a:hover {
+  text-decoration: none;
+}
+
+.footer .foo-one .part-two .school-logo img {
+  width: 173px;
+  height: 58px;
+}
+
+.footer .foo-one .part-two .content {
+  margin-top: 29px;
+  width: 260px;
+  font-size: 14px;
+}
+
+.footer .part-three {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer .part-three .page-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #425384;
+}
+
+.footer .part-three .page-links a {
+  font-size: 14px;
+}
+
+.footer .part-three .page-links a:hover {
+  text-decoration: none;
+}
+
+.footer .part-three .social-media {
+  color: #425384;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer .part-three .social-media .sign-up {
+  display: inherit;
+  width: 220px;
+}
+
+.footer .part-three .social-media .sign-up i {
+  font-size: 23px;
+  margin-right: 10px;
+}
+
+.footer .part-three .social-media .sign-up span {
+  font-size: 14px;
+}
+
+.footer .part-three .social-media .fb-tw {
+  margin-top: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 1em;
+}
+
+.footer .part-three .social-media .fb-tw .svg {
+  fill: #425384;
+}
+
+.footer .part-three .social-media img {
+  width: 24px;
+  color: #425384;
+}
+
+.footer .part-four {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer .country {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer .country a {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.footer .country a:hover {
+  text-decoration: none;
+}
+
+.footer .part-five {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.footer .part-five .logo img {
+  width: 60px;
+  height: 70px;
+}
+
+.footer .part-five .log-content {
+  margin-left: 10px;
+  font-size: 14px;
+  width: 450px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  position: relative;
+  bottom: -19px;
+}
+
+.page-one .content-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url("./images/little_girl.jpg");
+  background-size: cover;
+  background-position-y: 80%;
+  padding-left: 10em;
+  height: 516px;
+}
+
+.page-one .content-one .title {
+  width: 450px;
+  font-weight: 300;
+  color: #425384;
+}
+
+.page-one .content-one .title h4 {
+  letter-spacing: 2px;
+  font-weight: 300;
+  font-size: 2.5rem;
+}
+
+.page-one .content-one .title-discription {
+  width: 472px;
+}
+
+.page-one .content-one .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+
+.page-one .content-one .navigation .nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 10px;
+  border: #425384 solid 2px;
+  width: 315px;
+  padding: 10px;
+}
+
+.page-one .content-one .navigation .nav-links a {
+  color: #425384;
+}
+
+.page-one .content-one .navigation .nav-links span {
+  color: #425384;
+  place-self: center;
+}
+
+.page-one .content-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-left: 10em;
+  padding-right: 10em;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  gap: 5em;
+}
+
+.page-one .content-two .mission h6 {
+  font-size: 2.5em;
+  font-weight: 400;
+  margin: 0;
+  letter-spacing: 3px;
+  color: #425384;
+}
+
+.page-one .content-two .mission p {
+  width: 270px;
+}
+
+.page-one .content-two .mission-nav {
+  gap: 10px;
+}
+
+.page-one .content-two .mission-nav .nav-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 5px;
+}
+
+.page-one .content-two .mission-nav .nav-content .image-bg {
+  width: 205px;
+  height: 195px;
+}
+
+.page-one .content-two .mission-nav .nav-content .boy-walk {
+  background-image: url("./images/boy _walking.jpg");
+  background-size: cover;
+}
+
+.page-one .content-two .mission-nav .nav-content .boy-sad {
+  background-image: url("./images/boy outside with serious expression on face.JPG");
+  background-size: cover;
+}
+
+.page-one .content-two .mission-nav .nav-content .family {
+  background-image: url("./images/family.JPG");
+  background-size: cover;
+}
+
+.page-one .content-two .mission-nav .nav-content .nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 5px;
+  border: #020202cf solid 1px;
+  padding: 5px;
+}
+
+.page-one .content-two .mission-nav .nav-content .nav-links a {
+  color: #020202;
+  width: 163px;
+  font-size: 12px;
+}
+
+.page-one .content-two .mission-nav .nav-content .nav-links span {
+  color: #425384;
+  place-self: center;
+}
+
+.page-one .content-three {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("./images/chair.jpg");
+  background-size: cover;
+  background-position-y: 40%;
+  /* background-position-x: 90%; */
+  padding: 5.5em 2em 2em 7em;
+  height: 280px;
+  margin-bottom: 5px;
+}
+
+.page-one .content-three .blockquote {
+  width: 40em;
+  text-align: left;
+  color: #425384;
+}
+
+.page-one .content-three .blockquote-footer {
+  text-align: right;
+  color: #020202;
+  padding: 10px;
+  font-weight: 500;
+}
+
+.page-one .content-three .blockquote-footer::before {
+  content: "";
+}
+
+.page-two #page-two-divsion-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("./images/youngboy.jpg");
+  background-position-y: 50%;
+  background-size: cover;
+  height: 350px;
+  padding-right: 10em;
+}
+
+.page-two #page-two-divsion-one p {
+  margin-top: 0;
+  width: 504px;
+  text-align: left;
+  font-size: 24px;
+}
+
+.page-nine {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+/*# sourceMappingURL=globalStyle.css.map */

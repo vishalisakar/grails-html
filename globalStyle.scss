@@ -1,0 +1,450 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+header {
+  .info {
+    background-color: #ffc200;
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+    padding: 10px;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    padding-right: 10em;
+    a {
+      color: black;
+      display: inherit;
+      text-decoration: none;
+      gap: 10px;
+
+      span {
+        font-size: 20px;
+      }
+    }
+
+    a:nth-child(1) {
+      font-weight: 700;
+      color: #465a98;
+    }
+  }
+
+  .main {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    .logo {
+      display: flex;
+      h5 {
+        margin-left: 10px;
+        color: #425384;
+      }
+      img {
+        width: 60px;
+        height: 70px;
+      }
+    }
+    .search {
+      // margin-top: 1em;
+      width: 500px;
+
+      display: flex;
+      input {
+        background-color: aliceblue;
+      }
+      span {
+        position: relative;
+        right: 32px;
+        bottom: -9px;
+      }
+    }
+
+    .dropdown {
+      button {
+        background-color: aliceblue;
+      }
+      .btn:active {
+        background-color: aliceblue;
+        color: inherit;
+        border-color: inherit;
+      }
+    }
+
+    .map {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #425384;
+      //   width: 200px;
+      //   height: 100px;
+      .ut {
+        margin-left: 10px;
+        font-size: 14px;
+      }
+    }
+  }
+
+  nav {
+    // background-color: rgb(58, 58, 124);
+    background-color: #425384;
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    font-weight: 500;
+    justify-content: center;
+    gap: 2.5em;
+    padding: 0.4em;
+    color: white;
+    a {
+      text-decoration: none;
+      color: white;
+      letter-spacing: 2px;
+      // gap: 10px;
+      // border-right: white solid 1em;
+    }
+  }
+}
+
+.footer {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  // flex-wrap: wrap;
+  padding: 2.5em;
+
+  .foo-one {
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+    .part-one {
+      .logo {
+        display: flex;
+        h5 {
+          color: #425384;
+          justify-self: center;
+          align-self: center;
+          margin-left: 5px;
+        }
+        img {
+          width: 80px;
+          height: 90px;
+        }
+      }
+      .links {
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+        a:hover {
+          text-decoration: none;
+        }
+      }
+    }
+
+    .part-two {
+      .school-logo {
+        img {
+          width: 173px;
+          height: 58px;
+        }
+      }
+      .content {
+        margin-top: 29px;
+        width: 260px;
+        font-size: 14px;
+      }
+    }
+  }
+
+  .part-three {
+    display: flex;
+    flex-direction: column;
+
+    .page-links {
+      display: flex;
+      flex-direction: column;
+      color: #425384;
+
+      a {
+        font-size: 14px;
+      }
+      a:hover {
+        text-decoration: none;
+      }
+    }
+    .social-media {
+      color: #425384;
+      display: flex;
+      flex-direction: column;
+      .sign-up {
+        display: inherit;
+        width: 220px;
+        i {
+          font-size: 23px;
+          margin-right: 10px;
+        }
+        span {
+          font-size: 14px;
+        }
+      }
+      .fb-tw {
+        margin-top: 1em;
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+
+        .svg {
+          fill: #425384;
+        }
+      }
+
+      img {
+        width: 24px;
+        color: #425384;
+      }
+    }
+
+    // width: 200px;
+  }
+
+  .part-four {
+    display: flex;
+    flex-direction: column;
+    //  background-color: lawngreen;
+  }
+  .country {
+    display: flex;
+    flex-direction: column;
+
+    a {
+      margin-bottom: 10px;
+      font-size: 14px;
+    }
+    a:hover {
+      text-decoration: none;
+    }
+  }
+
+  .part-five {
+    display: flex;
+    flex-direction: row;
+
+    .logo {
+      img {
+        width: 60px;
+        height: 70px;
+      }
+    }
+    .log-content {
+      margin-left: 10px;
+      font-size: 14px;
+      width: 450px;
+
+      align-self: flex-end;
+      position: relative;
+      bottom: -19px;
+    }
+  }
+}
+
+.page-one {
+  // background-color: #ffca50;
+  .content-one {
+    display: flex;
+    flex-direction: column;
+    background-image: url("./images/little_girl.jpg");
+    background-size: cover;
+    background-position-y: 80%;
+    padding-left: 10em;
+    height: 516px;
+    .title {
+      width: 450px;
+      font-weight: 300;
+      color: #425384;
+      h4 {
+        letter-spacing: 2px;
+        font-weight: 300;
+        font-size: 2.5rem;
+      }
+    }
+
+    .title-discription {
+      width: 472px;
+    }
+    .navigation {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      .nav-links {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        border: #425384 solid 2px;
+        width: 315px;
+        padding: 10px;
+        a {
+          color: #425384;
+        }
+
+        span {
+          color: #425384;
+          place-self: center;
+        }
+      }
+    }
+  }
+
+  .content-two {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10em;
+    padding-right: 10em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    gap: 5em;
+    .mission {
+      h6 {
+        font-size: 2.5em;
+        font-weight: 400;
+        margin: 0;
+        letter-spacing: 3px;
+        color: #425384;
+      }
+      p {
+        width: 270px;
+      }
+    }
+
+    .mission-nav {
+      gap: 10px;
+      .nav-content {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        .image-bg {
+          width: 205px;
+          height: 195px;
+        }
+        .boy-walk {
+          background-image: url("./images/boy\ _walking.jpg");
+          background-size: cover;
+        }
+
+        .boy-sad {
+          background-image: url("./images/boy\ outside\ with\ serious\ expression\ on\ face.JPG");
+          background-size: cover;
+        }
+        .family {
+          background-image: url("./images/family.JPG");
+          background-size: cover;
+        }
+
+        // img {
+        //     background-color: #ffca50;
+        //     width: 195px;
+        //     height: 195px;
+
+        //     .boy-walk{
+        //         background-image: url('./images/boy\ _walking.jpg');
+        //     }
+        //     .boy-sad{
+
+        //     }
+        //     .family{
+
+        //     }
+        // }
+
+        .nav-links {
+          display: flex;
+          flex-direction: row;
+          gap: 5px;
+          border: #020202cf solid 1px;
+          // width: 265px;
+          padding: 5px;
+          a {
+            color: #020202;
+            width: 163px;
+            font-size: 12px;
+          }
+
+          span {
+            color: #425384;
+            // font-size: 14px;
+            place-self: center;
+          }
+        }
+      }
+    }
+  }
+
+  .content-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./images/chair.jpg");
+    background-size: cover;
+    background-position-y: 40%;
+    /* background-position-x: 90%; */
+    padding: 5.5em 2em 2em 7em;
+    height: 280px;
+    margin-bottom: 5px;
+
+    .blockquote {
+      width: 40em;
+      text-align: left;
+      color: #425384;
+    }
+
+    .blockquote-footer {
+      text-align: right;
+      color: #020202;
+      padding: 10px;
+      font-weight: 500;
+    }
+
+    .blockquote-footer::before {
+      content: "";
+    }
+  }
+}
+
+.page-two {
+  #page-two-divsion-one {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    background-image: url("./images/youngboy.jpg");
+    background-position-y: 50%;
+    background-size: cover;
+    height: 350px;
+    padding-right: 10em;
+    p {
+      margin-top: 0;
+      width: 504px;
+      text-align: left;
+      font-size: 24px;
+    }
+  }
+}
+
+.page-nine{
+  display: flex;
+  flex-direction: column;
+}

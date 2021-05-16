@@ -131,7 +131,7 @@ header {
       a {
         text-decoration: none;
         color: white;
-        letter-spacing: 2px;
+        // letter-spacing: 2px;
         // gap: 10px;
         // border-right: white solid 1em;
       }
@@ -479,6 +479,99 @@ header {
       width: 504px;
       text-align: left;
       font-size: 24px;
+    }
+  }
+
+  section{
+    padding: 1em;
+    padding-bottom: 0px;
+    display: grid;
+    grid-template-columns: 1fr 35%;
+  
+    .list-item{
+      display: flex;
+    flex-direction: column;
+    // font-size: 24px;
+    // color: #465a98;
+    padding:1em 2em 2em 2.5em;
+    line-height: 2em;
+    // font-weight: 400;
+    // i {
+    //   font-weight: 600;
+    // }
+    // span {
+    //   display: flex;
+    //   align-items: center;
+    // }
+    // .spl {
+    //   align-items: baseline;
+    //   i{
+    //     bottom: -3px;
+    //   position: relative;
+    //   }
+    // }
+    .division-WOA{
+      display: flex;
+      flex-direction: column;
+      font-size: 18px;
+      padding-left: 11em;
+      font-weight: 400;
+  
+      &.spl{
+        padding-left: 15em;
+    line-height: 1.5;
+    font-size: 14px;
+      }
+    }
+    .division-WA{
+      display: flex;
+      flex-direction: column;
+      font-size: 14px;
+      padding-left: 11em;
+      color: #000;
+      line-height: 1;
+      .division-WA-list{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        i{
+          color: #ff6600;
+        }
+        p{
+          place-self: center;
+          margin-bottom: 0;
+        }
+      }
+     
+    }
+    }
+    .learn-more-about{
+      background-color: #f1efeb;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+      header{
+        align-items: center;
+        display: flex;
+        font-size: 20px;
+        /* padding: 1em; */
+        justify-content: center;
+      }
+      hr{
+        border-color: #000;
+        margin-top:0px;
+      }
+      .list{
+        padding-bottom: 1em;
+        color: #0056b3;
+        font-size: 14px;
+        font-weight: 100px;
+
+        h5{
+          font-size: 14px;
+        // font-weight: 100px;
+        }
+      }
     }
   }
 }
@@ -896,4 +989,20 @@ list-style: none;
   p{
     font-size: 14px;
   }
+}
+
+
+.place-center{
+  place-self: center;
+
+}
+
+.item-rows{
+  h5{
+    letter-spacing: 2px;
+  }
+}
+
+.item-rows-list{
+  padding-left: 11em;
 }

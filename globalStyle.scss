@@ -553,9 +553,17 @@ header {
 .breadcrumb {
   background-color: inherit;
 
-  ol li {
-    text-decoration: underline;
+   li 
+    {
+      a{
+        text-decoration: underline;
+      }
+   
   }
+}
+
+.underline{
+  text-decoration: underline;
 }
 
 .catagery {
@@ -797,4 +805,95 @@ section{
 
 .gray{
   background-color: #c4c7ca;
+}
+
+.place-self-end{
+  place-self: flex-end;
+}
+
+.row-f-1{
+  background-color: #d5fbde;
+  width: 52em;
+  height: 35em;
+}
+
+.icon-title {
+  width: 11em;
+    font-size: 14px;
+    font-weight: 500;
+    place-self: center;
+}
+
+.icon-icon{
+  font-size: 40px;
+    font-weight: 500;
+    place-self: center;
+}
+
+.hr{
+  border-color: #465a98 ;
+}
+
+.rows-tw{
+  .row-tw-1 {
+ width: 152em;
+ background-color: #d5fbde;
+
+ ul li{
+  list-style: none;
+ }
+  }
+
+  .row-tw-2 {
+    width: 257em;
+    gap: 12em;
+    height: 70em;
+    font-size: 14px;
+    /* margin-left: 10px; */
+    margin-left: 21em;
+    background-color: #d5fbde;
+
+ul li{
+  list-style: none;
+  i{
+    font-size: 14px;
+    color: #ff6600;
+  }
+ }
+  }
+}
+
+.bg-highlight{
+  background-color: azure;
+}
+
+.size-9{
+  font-size: 9px !important;
+}
+
+.li-style-none{
+list-style: none;
+}
+
+.rows-f{
+  .row-e-1 {
+    background-color: #d5fbde;
+  width: 52em;
+  height: 58em;
+  }
+}
+
+.img-boy{
+  width: 69em;
+  margin-right: 10px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-image: url('./images/304.jpeg') ;
+}
+
+.row-e-2{
+  width: 58em;
+  p{
+    font-size: 14px;
+  }
 }
